@@ -2,49 +2,90 @@
 <html>
 
 <head>
-    <style type="text/css">
-    h1 {color: red}
-    p {color: blue}
+    <style>
+        #header {
+            background-color:black;
+            color:white;
+            text-align: center;
+            padding: 5px
+        }
+        #nav {
+            line-height: 30px;
+            background-color:slategray;
+            height: 1000px;
+            width: 100px;
+            float:left;
+            padding: 5px;
+        }
+        #section{
+            width: 350px;
+            float: left;
+            padding: 10px;
+        }
+        #footer{
+            background-color: black;
+            color: white;
+            clear: both;
+            text-align: center;
+            padding: 5px;
+        }
     </style>
 </head>
 
 <body>
-<h1>head 1</h1>
-<a href="#G8">Show paragraph 5</a>
-<p>A paragraph</p>
-<p><a name="G1">A paragraph 1</a></p>
-<p>A paragraph</p>
-<p>A paragraph</p>
 
-<p><a name="G5">A paragraph 5</a></p>
-<p>
-    <a href="http://www.pku.edu.cn" target="_blank" a name="G8">
-            <img src="http://ow7ky40cq.bkt.clouddn.com/%E6%A0%87%E5%BF%97_%E7%BA%A2%E8%89%B2.png" width="300" height="300"/>
-    </a>
-</p>
-<table border="1">
-    <caption>Joural of Medicinal Chemistry</caption>
-    <tr>
-        <td>ID</td>
-        <td>MW</td>
-        <td>ALogP</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>235.6</td>
-        <td>0.78</td>
-    </tr>
-</table>
-<h4>To do list</h4>
-<ul>
-    <li>数据库框架</li>
-    <li>数据库样本</li>
-    <li>发送给太阳塔</li>
-</ul>
-<ol>
-    <li>早餐</li>
-    <li>午餐</li>
-    <li>晚餐</li>
-</ol>
+    <div id="header">
+        <h1>Molecue to Drug</h1>
+    </div>
+
+    <div id="nav">
+        JMC<br>
+        SPS<br>
+        Marine<br>
+    </div>
+
+    <div id="section">
+ 
+        <a href="#G8">Show paragraph 5</a>
+        <p>A paragraph</p>
+        <p><a name="G1">A paragraph 1</a></p>
+        <p><a name="G5">A paragraph 5</a></p>
+        <p>
+            <a href="http://www.pku.edu.cn" target="iframe_a" a name="G8">
+                    <img src="http://ow7ky40cq.bkt.clouddn.com/%E6%A0%87%E5%BF%97_%E7%BA%A2%E8%89%B2.png" width="300" height="300"/>
+            </a>
+        </p>
+        <table border="1">
+            <caption>Joural of Medicinal Chemistry</caption>
+            <tr>
+                <td>ID</td>
+                <td>MW</td>
+                <td>ALogP</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>235.6</td>
+                <td>0.78</td>
+            </tr>
+        </table>
+        <h4>To do list</h4>
+        <ul>
+            <li>数据库框架</li>
+            <li>数据库样本</li>
+            <li>发送给太阳塔</li>
+        </ul>
+        <ol>
+            <li>早餐</li>
+            <li>午餐</li>
+            <li>晚餐</li>
+        </ol>
+        <iframe src="/Users/liv/Github/Web/W3School.html" width="500" height="400" name="iframe_a"></iframe>
+    </div>
+
+   
+
+    <div id="footer">
+        Copyright@PKUDDC <a href="http://www.baidu.com" style="color:white" target="_blank">北京大学药物设计研究室</a>
+    </div>
 </body>
 </html>
