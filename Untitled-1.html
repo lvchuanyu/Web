@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <style>
         #header {
             background-color:black;
@@ -34,17 +35,17 @@
 
 <body>
 
-    <div id="header">
+    <header>
         <h1>Molecue to Drug</h1>
-    </div>
+    </header>
 
-    <div id="nav">
+    <nav>
         JMC<br>
         SPS<br>
         Marine<br>
-    </div>
+    </nav>
 
-    <div id="section">
+    <section>
  
         <a href="#G8">Show paragraph 5</a>
         <p>A paragraph</p>
@@ -79,13 +80,49 @@
             <li>午餐</li>
             <li>晚餐</li>
         </ol>
-        <iframe src="/Users/liv/Github/Web/W3School.html" width="500" height="400" name="iframe_a"></iframe>
-    </div>
+        <iframe src="/Users/liv/Github/Web/W3School.html" width="400" height="300" name="iframe_a" frameboder="1"></iframe>
+    
+        <form action="action_page.php">
+            <fieldset>
+                <legend>Personal infomation</legend>
+                Name:<br>
+                <input type="text" name="Name" value="Mickey">
+                <br>
+                Email:<br>
+                <input type="text" name="email" value="mickey@gamil.com">
+                <br>
+                Password:<br>
+                <input type="password" name="psw">
+                <br>
+                Drug Type:<br>
+                <select name="drug">
+                    <option value="natural product">Natural Product</option>
+                    <option value="synthetic" selected>Synthetic</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                Country:<br>
+                <input list="country">
+                <datalist id="country">
+                    <option value="China">
+                    <option value="America">
+                    <option value="Japan">
+                    <option value="Korea">
+                </datalist>
+                Quantity:<br>
+                <input type="number" name="quantity" min="1" max="10">
+                <br><br>
+                <input type="submit" value="Submit">
+            </fieldset>     
+        </form>
+        <br>
+        <textarea name="message" rows="10" cols="30">What do you want to know?</textarea>
+        <br>
+        <button type="button" onclick="alert('Welcome to Peking University!')">Click Me!</button>
+    </section>
 
-   
-
-    <div id="footer">
+    <footer>
         Copyright@PKUDDC <a href="http://www.baidu.com" style="color:white" target="_blank">北京大学药物设计研究室</a>
-    </div>
+    </footer>
 </body>
 </html>
