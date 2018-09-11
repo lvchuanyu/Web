@@ -1,3 +1,26 @@
 hr {color: sienna;}
 p {margin-left: 20px;}
-body {background-color: bisque}
+body {
+    background-color: bisque;
+    background-image: url(http://ow7ky40cq.bkt.clouddn.com/2017-09-13-TIM%E6%88%AA%E5%9B%BE20170912234746.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+p {
+    text-indent: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.spread {
+    word-spacing: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    white-space: pre;
+}
+p.italic {font-style: italic;}
+
+a:link {color: blue;}
+a:visited {color: blueviolet;}
+a:hover {color: aquamarine;}
+a:active {color: brown;}
